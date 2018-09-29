@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zhaiojun - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE58.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/zhaiojun.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\ÕÔ¾þ\zhaiojun.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE58.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE69.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/zhaiojun.pdb" /debug /machine:I386 /out:"Debug/zhaiojun.exe" /pdbtype:sept 
+".\Debug\zhaiojun.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE69.tmp"
+<h3>Output Window</h3>
+Compiling...
+zhaiojun.cpp
+C:\Users\Administrator\Desktop\ÕÔ¾þ\zhaiojun.cpp(17) : error C2084: function 'int __cdecl main(void)' already has a body
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+zhaiojun.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
